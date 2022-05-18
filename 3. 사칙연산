@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("정수 A값을 입력하시오");
+    int a = sc.nextInt();
+    System.out.println("정수 B값을 입력하시오");
+    int b = sc.nextInt();
+
+    int sum = a + b;
+    int minus = a - b;
+    int mul = a * b;
+    int div = a / b;
+    int remain = a % b;
+    
+    System.out.println("덧샘: " + sum);
+    System.out.println("뺄샘: " + minus);
+    System.out.println("곱샘: " + mul);
+    System.out.println("나눗샘: " + div);
+    System.out.println("나머지: " + remain);
+  }
+}
