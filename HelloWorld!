@@ -1,0 +1,12 @@
+class Main {
+  public static void main(String[] args) {
+    Print_HW PHW = new Print_HW();
+    PHW.Phw();
+  }
+}
+
+public class Print_HW {
+  public void Phw() {
+    System.out.println("Hello World!");
+  }
+}
