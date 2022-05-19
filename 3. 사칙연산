@@ -2,18 +2,21 @@ import java.util.Scanner;
 
 class Main {
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in); //Scanner 객체 생성
+    
+    //a, b값을 사용자로부터 입력받는다
     System.out.println("정수 A값을 입력하시오");
     int a = sc.nextInt();
     System.out.println("정수 B값을 입력하시오");
     int b = sc.nextInt();
 
-    int sum = a + b;
-    int minus = a - b;
-    int mul = a * b;
-    int div = a / b;
-    int remain = a % b;
+    int sum = a + b; // 합
+    int minus = a - b; //차
+    int mul = a * b; //곱
+    int div = a / b; //분
+    int remain = a % b; //나머지
     
+    //값 출력
     System.out.println("덧샘: " + sum);
     System.out.println("뺄샘: " + minus);
     System.out.println("곱샘: " + mul);
