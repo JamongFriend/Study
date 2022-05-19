@@ -1,13 +1,17 @@
-import java.util.Scanner;
+import java.util.Scanner; //java.util 패키지 안의 Scanner 클래스를 사용하기위해 선언
 
 class Main {
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in); //Scanner 객체 생성
+    
+    // a, b값을 사용자로부터 입력받는다
     System.out.println("정수 A값을 입력하시오");
     int a = sc.nextInt();
     System.out.println("정수 B값을 입력하시오");
     int b = sc.nextInt();
-    int sum = a + b;
-    System.out.println("정수 A, B의 합: " + sum);
+    
+    int sum = a + b; //sum이라는 변수에 a와 b를 더한 값을 할당
+    System.out.println("정수 A, B의 합: " + sum); //출력
+    
   }
 }
