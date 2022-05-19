@@ -15,21 +15,16 @@ class Main {
     String calc = sc.next(); //문자열로 입력을 받는다
     
     //입력받은 연산자를 if문을 이용하여 구별하여 값을 출력
-    if(calc.equals("+")){
+    if(calc.equals("+"))
        System.out.println(a+b);
-    }
-    else if(calc.equals("-")){
+    else if(calc.equals("-"))
       System.out.println(a-b);
-    }
-    else if(calc.equals("*")){
+    else if(calc.equals("*"))
       System.out.println(a*b);
-    }
-    else if(calc.equals("/")){
+    else if(calc.equals("/"))
       System.out.println(a/b);
-    }
-    else if(calc.equals("%")){
+    else if(calc.equals("%"))
       System.out.println(a%b);
-    }
     else
       System.out.println("잘못된 연산자입니다");
 }
