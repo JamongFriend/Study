@@ -1,12 +1,14 @@
 class Main {
   public static void main(String[] args) {
-    Print_HW PHW = new Print_HW();
-    PHW.Phw();
+    Print_HW PHW = new Print_HW(); // Print_HW 객체 생성
+    PHW.Phw(); // 생성된 객체의 메소드를 호출
   }
 }
 
+//Print_HW라는 클래스 선언
 public class Print_HW {
+//클래스 안에 Phw()라는 메소드 선언
   public void Phw() {
-    System.out.println("Hello World!");
+    System.out.println("Hello World!"); // Hello World! 출력
   }
 }
