@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+class Main {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in); //Scanner 객체 생성
+
+    // Scanner 객체의 메소드를 이용해 변수 a, b값을 사용자로부터 입력받음
+    System.out.println("정수 A를 입력하시오");
+    int a = sc.nextInt(); 
+    System.out.println("정수 B를 입력하시오");
+    int b = sc.nextInt();
+
+    //if문의 조건에 비교연산자를 이용하여 a, b값을 비교
+    if(a > b)
+      System.out.println(a + ">" + b);
+    else if(a < b)
+      System.out.println(a + "<" + b);
+    else if(a == b)
+      System.out.println(a + "=" + b);
+    //a, b값을 비교한 결과에 따라서 출력
+  }
+}
