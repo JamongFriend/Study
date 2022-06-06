@@ -31,5 +31,10 @@ class Main {
 
     //String 메소드인 split로 문자열 e를 문자열 ":"로 나누어 문자열 배열을 생성
     String[] aing = e.split(":");
+
+    //문자열 포매팅을 이용해 문장에 문자열과 숫자를 대입
+    int num = 3;
+    String things = "tree";
+    System.out.println(String.format("I like %s. so I have %d %s.", things, num, things));
     }
 }
